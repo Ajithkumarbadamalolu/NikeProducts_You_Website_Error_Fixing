@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nike Company</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+        }
+        
+        header {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .product-image {
+            width: 300px;
+            height: 300px;
+            margin: 20px auto;
+            display: block;
+        }
+        
+        .product-description {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        form {
+            margin: 20px auto;
+            width: 400px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        form button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nike Company</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <button>Contact</button>
+        </nav>
+    </header>
+    
+    <img class="product-image" src="nike-product.jpg" alt="Nike Product">
+    
+    <div class="product-description">
+        <h2>Nike Product</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, metus ac tincidunt luctus, mi nunc tincidunt nunc, vel ultrices nunc nisl nec ex. Sed auctor, est in luctus malesuada, ligula elit lacinia odio, vitae lacinia lectus arcu id nunc.</p>
+    </div>
+    
+    <footer>
+        &copy; 2024 Nike Company. All rights reserved.
+    </footer>
+    
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+    
+    <script>
+        // JavaScript code goes here
+    </script>
+</body>
+</html>
